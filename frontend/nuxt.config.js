@@ -1,5 +1,5 @@
 
-const config {
+const config = {
   mode: 'spa',
   /*
   ** Headers of the page
@@ -38,7 +38,7 @@ const config {
   ** Nuxt.js modules
   */
   modules: [
-		'@nuxtjs/axios',
+		// '@nuxtjs/axios',
     '@nuxtjs/proxy'		// 追記
   ],
   /*
