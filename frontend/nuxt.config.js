@@ -48,5 +48,9 @@ export default {
     */
     extend (config, ctx) {
     }
+	},
+	// 静的ファイルの出力先を変更
+  generate: {
+    dir: '../public'
   }
 }
